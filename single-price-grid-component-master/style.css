@@ -3,3 +3,18 @@
     margin:0;
     box-sizing: border-box;
 }
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color:hsl(204, 43%, 93%);
+}
+
+.card{
+    height: 500px;
+    width:350px;
+    border-radius:20px;
+}
+
