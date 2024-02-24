@@ -115,10 +115,20 @@ button{
 }
 .right_content{
     width:50%;
-    background-color: hsl(179, 51%, 62%);
+    background-color: hsl(179, 43%, 52%);
     border-bottom-right-radius: 10px;
+    padding:2.5rem;
 }
 
+.right_content p{
+    color: azure;
+    font-size: 20px;
+    font-family: "Karla", sans-serif;
+    padding-bottom:1.3rem;
+}
 .right_content ul{
     list-style-type: none;
+    color: rgba(240, 255, 255, 0.598);
+    font-family: "Karla", sans-serif;
+    line-height: 1.5;
 }
