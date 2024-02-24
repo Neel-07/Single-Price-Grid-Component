@@ -5,13 +5,15 @@
 }
 
 body{
+    background-color:hsl(204, 43%, 93%);
+}
+main{
+    min-height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
-    background-color:hsl(204, 43%, 93%);
+    flex:1;
 }
-
 .card{
     max-width:750px;
     display:flex;
@@ -19,6 +21,7 @@ body{
     box-shadow: 0 0 30px 5px rgba(166, 166, 166, 0.377); 
     border-radius:10px;
     margin:2rem;
+    overflow: hidden;
 }
 
 .top_content{
@@ -123,6 +126,7 @@ button{
 .right_content p{
     color: azure;
     font-size: 20px;
+    font-weight: 700;
     font-family: "Karla", sans-serif;
     padding-bottom:1.3rem;
 }
