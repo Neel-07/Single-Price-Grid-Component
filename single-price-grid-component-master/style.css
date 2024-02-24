@@ -21,13 +21,39 @@ body{
 }
 
 .top_content{
-    height:50%;
+    height:47%;
     background-color: rgb(255, 255, 255);
-    border-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    padding:2rem;
+}
+
+.top_content h1{
+    font-size: 30px;
+    font-family: "Karla", sans-serif;
+    padding: 20px 10px;
+    color:hsl(179, 62%, 43%);
+}
+
+.top_content h2{
+    font-size: 22px;
+    font-family: "Karla", sans-serif;
+    padding: 10px 10px;
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.top_content p{
+    font-family: "Karla", sans-serif;
+    padding: 2px 10px;
+    font-size: 19px;
+    color:hsl(218, 22%, 67%);
+    line-height:1.6;
+    font-weight: 400;
 }
 
 .bottom_content{
-    height:50%;
+    height:53%;
     display:flex;
 
 }
@@ -35,11 +61,13 @@ body{
 .left_content{
     width:50%;
     background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
 }
 
 .right_content{
     width:50%;
     background-color: hsl(179, 51%, 62%);
+    border-bottom-right-radius: 10px;
 }
 
 .right_content ul{
