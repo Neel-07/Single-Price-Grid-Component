@@ -13,8 +13,35 @@ body{
 }
 
 .card{
-    height: 500px;
-    width:350px;
-    border-radius:20px;
+    height:550px;
+    max-width:750px;
+    display:flex;
+    flex-direction: column;
+
 }
 
+.top_content{
+    height:50%;
+    background-color: rgb(255, 255, 255);
+    border-radius:10px;
+}
+
+.bottom_content{
+    height:50%;
+    display:flex;
+
+}
+
+.left_content{
+    width:50%;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.right_content{
+    width:50%;
+    background-color: hsl(179, 51%, 62%);
+}
+
+.right_content ul{
+    list-style-type: none;
+}
