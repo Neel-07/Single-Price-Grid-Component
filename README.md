@@ -18,7 +18,7 @@ For the Single price grid component project, my main objective was to craft a vi
   
 ### Screenshot
 
-![](./design/desktop-design.jpg)
+![](./single-price-grid-component-master/design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Click here](https://neel-07.github.io/)
