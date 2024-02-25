@@ -21,7 +21,7 @@ For the Single price grid component project, my main objective was to craft a vi
 ![](./single-price-grid-component-master/design/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [Click here](https://neel-07.github.io/)
+- Live Site URL: [Click here](https://neel-07.github.io/Single-Price-Grid-Component/)
 
 ## My process
  In approaching this project, I began by carefully organizing the HTML structure to encapsulate the essential components of the Single price grid component. Emphasis was placed on creating a clean and semantic layout. Moving on to the CSS implementation, I concentrated on achieving visually appealing design elements and ensuring seamless responsiveness across various screen sizes. Significant attention was devoted to typography, color palettes, and layout considerations to ensure user-friendly and elegant design.
